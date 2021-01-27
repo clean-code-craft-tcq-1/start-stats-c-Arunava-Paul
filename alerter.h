@@ -1,7 +1,7 @@
 #ifndef ALERTER_H_
 #define ALERTER_H_
 
-//#define NULL_PTR  (void*)0
+#define NULL 0
 
 #define NO_OF_ALERTS 2
 
