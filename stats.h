@@ -1,6 +1,3 @@
-#ifndef STATS_H_
-#define STATS_H_
-
 #include "alerter.h"
 
 struct Stats
@@ -18,5 +15,3 @@ typedef void (*alerter_funcptr)();
 
 extern int emailAlertCallCount;
 extern int ledAlertCallCount;
-
-#endif
