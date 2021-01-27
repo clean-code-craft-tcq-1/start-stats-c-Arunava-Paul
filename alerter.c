@@ -5,7 +5,7 @@
  *      Author: PUL1KOR
  */
 
-#include "alerter.h"
+#include "stats.h"
 
 extern int emailAlertCallCount;
 extern int ledAlertCallCount;
