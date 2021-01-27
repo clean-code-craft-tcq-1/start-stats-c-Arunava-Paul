@@ -4,7 +4,7 @@ struct Stats compute_statistics(const float* numberset, int setlength)
 {
 	struct Stats s;
 	float var = 0;
-	if((numberset == NULL_VALUE) || (setlength == NULL_VALUE))
+	if((numberset == NULL) || (setlength == NULL_VALUE))
 	{
 		/**Invalid arguments**/
 		s.average = NAN;
@@ -33,4 +33,9 @@ struct Stats compute_statistics(const float* numberset, int setlength)
 
 	return s;
 }
+
+
+
+
+
 
