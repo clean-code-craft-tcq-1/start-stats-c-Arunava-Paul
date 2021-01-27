@@ -18,7 +18,7 @@ void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stat
 	{
 		for( int i = 0 ; i < NO_OF_ALERTS ; i++ )
 		{
-			if ( alerters[i] != NULL )
+			if ( alerters[i] != NULL_PTR )
 			{
 				(*alerters[i])();
 			}
