@@ -8,7 +8,8 @@ struct Stats
 	float min;
 };
 
-#define NULL_VALUE (int)0
+#define NULL_VALUE 0
+
 struct Stats compute_statistics(const float* numberset, int setlength);
 
 #endif
