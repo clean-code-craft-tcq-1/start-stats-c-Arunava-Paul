@@ -7,8 +7,8 @@
 
 #include "stats.h"
 
-extern int emailAlertCallCount;
-extern int ledAlertCallCount;
+int emailAlertCallCount;
+int ledAlertCallCount;
 
 void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stats computedStats)
 {
