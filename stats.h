@@ -1,4 +1,5 @@
-#include "alerter.h"
+#ifndef STATS_H_
+#define STATS_H_
 
 struct Stats
 {
@@ -10,5 +11,4 @@ struct Stats
 
 struct Stats compute_statistics(const float* numberset, int setlength);
 
-extern int emailAlertCallCount;
-extern int ledAlertCallCount;
+#endif
